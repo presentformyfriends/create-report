@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Define today's date
+now=$(date +"%F")
+
+# Create new report using refReport.odt as reference, save with today's date in filename
+cp ~/.MyScripts/refReport.odt ~/Documents/Reports/"$now Report.odt"
+
+# Open new report with LibreOffice writer
+open /Applications/LibreOffice.app ~/Documents/Reports/"$now Report.odt"

@@ -1,0 +1,1 @@
+0 7 * * 1 perl -le 'sleep rand 1800' && ~/.MyScripts/./createReportScript

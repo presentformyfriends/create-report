@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Move to directory where script is
+cd -- "$(dirname -- "$BASH_SOURCE")"
+
+# Move hidden directory ".MyScripts" to Home folder (directory contains refReport.odt)
+mv -i .MyScripts ~/
+
+# Create new directory "~/Documents/Reports"
+mkdir ~/Documents/Reports

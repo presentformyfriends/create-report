@@ -1,4 +1,4 @@
-# createReport
+# create-report
 Bash script to create a "Weekly Report" ODT document with current date and page numbers, saves with current date filename, and then opens the saved document with LibreOffice Writer.
 
 Written for OSX/Linux.
